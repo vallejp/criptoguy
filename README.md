@@ -17,3 +17,4 @@ Some definitions of a Pseudo-Random Numbers Generator:
  2. At each steo $i \geq 1$, the state of hte PRNG is $s_i = f(s_{i-1]$ and output is $u_i = g(s_i)$. These output $u_is$ of PRNG are the (pseudo-)random numbers.
  
  
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
