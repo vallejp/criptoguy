@@ -19,7 +19,7 @@ Some definitions of a Pseudo-Random Numbers Generator:
 
 ## Cellular Automata 
 
-The Elementary Cellular Automata (CA) is a set of 256 simple rules of temporal evolution, proposed by Stephen Wolfram. The Elementary CA algorithm works according to the neighborhood of each cell of a one-dimensional row, that is, the next generation row will be the result of the application of the rule by interaction of the neighbors of the previous cell. Due to this, A cell and its two neighbors form a neighborhood of 3 cells, so there are <img src="https://render.githubusercontent.com/render/math?math= 2^3 = 8"> possible patterns for a neighborhood, then, there are <img src="https://render.githubusercontent.com/render/math?math= 2^8 = 256"> possible rules.
+The Elementary Cellular Automata (CA) is a set of 256 simple rules of temporal evolution, proposed by Stephen Wolfram. The Elementary CA algorithm works according to the neighborhood of each cell of a one-dimensional row, that is, the next generation row will be the result of the application of the rule by interaction of the neighbors of the previous cell. Due to this, A cell and its two neighbors form a neighborhood of 3 cells, so there are 2^3 = 8 possible patterns for a neighborhood, then, there are 2^8 = 256 possible rules.
 
 For example, the rule 30 (or 00011110 in binary form) works as the following:
 
