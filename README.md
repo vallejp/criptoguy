@@ -16,3 +16,17 @@ Some definitions of a Pseudo-Random Numbers Generator:
  1. Select the seed <img src="https://render.githubusercontent.com/render/math?math=s_0 \in \zeta"> based on <img src="https://render.githubusercontent.com/render/math?math=\mu">. The first number is <img src="https://render.githubusercontent.com/render/math?math=u_0 = g(s_0)">.
  2. At each steo <img src="https://render.githubusercontent.com/render/math?math=i \geq 1">, the state of hte PRNG is <img src="https://render.githubusercontent.com/render/math?math=s_i = f(s_{i-1})"> and output is <img src="https://render.githubusercontent.com/render/math?math=u_i = g(s_i)">. These output <img src="https://render.githubusercontent.com/render/math?math=u_i = u_is"> of PRNG are the (pseudo-)random numbers.
 
+
+## Cellular Automata 
+
+The Elementary Cellular Automata (CA) is a set of 256 simple rules of temporal evolution, proposed by Stephen Wolfram. The Elementary CA algorithm works according to the neighborhood of each cell of a one-dimensional row, that is, the next generation row will be the result of the application of the rule by interaction of the neighbors of the previous cell. Due to this, A cell and its two neighbors form a neighborhood of 3 cells, so there are src="https://render.githubusercontent.com/render/math?math=s_i = 2^3 = 8"> possible patterns for a neighborhood, then, there are src="https://render.githubusercontent.com/render/math?math=s_i = 2^8 = 256"> possible rules.
+
+For example, the rule 30 (or 00011110 in binary form) works as the following:
+
+111 110 101 100 011 010 001 000
+ |   |   |   |   |   |   |   |
+ 0   0   0   1   1   1   1   0
+ 
+ These set of simple rules could behave in a very complex and apparently random way.
+ 
+ More information about Cellular Automata you can see in the book A New Kind of Science by Stephen Wolfram.
