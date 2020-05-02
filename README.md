@@ -41,6 +41,6 @@ For example, the rule 30 (or 00011110 in binary form) works as the following:
  
  These set of simple rules could behave in a very complex and apparently random way, as you can see in next animation:
  
- ![alt text](https://github.com/vallejp/criptoguy/tree/master/python/CA/CA.gif "CA Text 1")
+ ![Alt text](https://gifs.com/gif/ca-91EQKz)
  
  More information about Cellular Automata you can see in the book A New Kind of Science by Stephen Wolfram.
