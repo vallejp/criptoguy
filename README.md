@@ -39,6 +39,8 @@ For example, the rule 30 (or 00011110 in binary form) works as the following:
 
 000 --> 0
  
- These set of simple rules could behave in a very complex and apparently random way.
+ These set of simple rules could behave in a very complex and apparently random way, as you can see in next animation:
+ 
+![Alt Text](https://media.giphy.com/media/UoXrYsYYqcrealZSLH/giphy.gif)
  
  More information about Cellular Automata you can see in the book A New Kind of Science by Stephen Wolfram.
